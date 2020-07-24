@@ -1,0 +1,36 @@
+/* 初始化标签样式设置 */
+ /* 初始化CSS */
+ html, body, ul, li, p, h1, h2, h3, h4, h5, h6, form, img { 
+     margin:0; 
+     padding:0;
+     border: 0;
+     font-style:normal; 
+     font-weight:normal;
+     font-size: 100%;
+ }
+ img { 
+     border:none; 
+}
+ ul { 
+     list-style:none; 
+}
+ table { 
+     border-collapse:collapse; 
+}
+ body { 
+    color: #252525;  
+    background:#fff;
+    font-size: 12px;
+}
+ a { 
+     color:#6a6a6a; 
+     text-decoration:none; 
+     font-size: 12px;
+}
+ 
+ a:hover{ 
+     text-decoration:none; 
+}
+ a:visited{ 
+     text-decoration:none; 
+}

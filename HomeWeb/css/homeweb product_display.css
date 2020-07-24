@@ -1,0 +1,80 @@
+/* 头部导航栏 */
+#header .menu .warp li:nth-child(3) .bottom{
+    display: block;
+}
+
+/* 内容main */
+#main .list_img .list .flower{
+    background-image: url(../images/02_wqpl.jpg);
+}
+
+/* 右边图片 */
+#main .right_imgs{
+    width: 906px;
+    margin-top: 12px;
+}
+/* 第一排 */
+#main .product{
+    width: 906px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+} 
+#main .product .imgs{
+    width: 282px;
+    /* width: 32%; */
+    display: inline-block;
+    height: 332px;
+    box-sizing: border-box;
+    padding: 20px 16px 0 16px;
+    margin-bottom: 30px;
+    border: 1px solid #f3f3f3;
+}
+#main .product .img{
+    width: 251px;
+    /* width: 100%; */
+    height: 250px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url(../images/pro1.png); */
+}
+#main .product .img1{
+    background-image: url(../images/pro1.png);
+}
+#main .product .img2{
+    background-image: url(../images/pro2.png);
+}
+#main .product .img3{
+    background-image: url(../images/pro3.png);
+}
+#main .product .img4{
+    background-image: url(../images/pro4.png);
+}
+#main .product .img5{
+    background-image: url(../images/pro5.png);
+}
+#main .product .img6{
+    background-image: url(../images/pro6.png);
+}
+#main .product .img7{
+    background-image: url(../images/pro7.png);
+}
+#main .product .img8{
+    background-image: url(../images/pro8.png);
+}
+#main .product .img9{
+    background-image: url(../images/pro9.jpg);
+}
+#main .product .page{
+    margin-top: 58px;
+    /* text-align: center; */
+    margin-left: 313px;
+}
+#main .product .page button:hover{
+    color: red;
+    border: none;
+    background-color:white;
+    outline: none;
+}

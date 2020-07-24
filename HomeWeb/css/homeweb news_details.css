@@ -1,0 +1,85 @@
+/* 头部导航栏 */
+#header .menu .warp li:nth-child(4) .bottom{
+    display: block;
+}
+
+/* 内容main */
+#main .list_img .list a{
+    height: 100px;
+    line-height: 100px;
+}
+#main .list_img .list .jar{
+    background-image: url(../images/03_zsfr.jpg);
+}
+
+/* 右边图片 */
+#main .news_details{
+    width: 900px;
+    height: 560px;
+    box-sizing: border-box;
+    padding :38px 22px 0 22px;
+    border: 2px solid #dcdada;
+}
+#main .news_details .Title{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+#main .news_details .writer{
+    font-size: 12px;
+    color: #a5a5b1;
+    text-align: center;
+    margin: 20px 0;
+}
+#main .news_details .writer>span{
+    padding-right: 30px;
+}
+#main .news_details .writer .img{
+    display: inline-block;
+    width: 50px;
+    height: 19px;
+    background-image: url(../images/fenxiang.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 5px;
+}
+#main .news_details .summary{
+    width: 866px;
+    height: 91px;
+    background-color: #f5f5f5;
+    color: #898b90;
+    box-sizing: border-box;
+    padding: 13px 35px;
+    text-indent: 2em;
+    line-height: 22px;
+}
+#main .news_details .article{
+    text-indent: 2em;
+    font-size: 12px;
+    padding-left: 12px;
+}
+#main .news_details .article1{
+    font-weight: bold;
+    color: black;
+    padding-top: 32px;
+    padding-bottom: 20px;
+}
+#main .news_details .article2{
+    font-size: 12px;
+    color: #606369;
+}
+#main .news_details .up_page{
+    padding: 60px 0 15px 12px;
+    color: #a5a7aa;
+}
+#main .news_details .bottom_page{
+    color: #a5a7aa;
+    padding-left: 12px;
+}
+#main .news_details  a{
+    color: black;
+}
+#main .news_details  a:hover{
+    color: #15bded;
+}

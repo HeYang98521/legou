@@ -1,0 +1,58 @@
+/* 头部导航栏 */
+#header .menu .warp li:nth-child(5) .bottom{
+    display: block;
+}
+
+/* 内容main */
+#main .list_img .list .tea{
+    background-image: url(../images/03_f0hi.jpg);
+}
+
+/* 右边图片 */
+#main .online_tutoring{
+    width: 900px;
+    margin-top: 12px;
+}
+#main .online_tutoring .Title{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #3f3e45;
+}
+#main .online_tutoring .article{
+    margin-top: 28px;
+    color: #a5a7aa;
+}
+#main .online_tutoring span{
+    color: red;
+}
+#main .online_tutoring .input_text{
+    width: 100%;
+    height: 40px;
+    border: 2px solid #e7e7e7;
+    margin-top: 12px;
+}
+#main .online_tutoring .checkbox{
+    margin-top: 24px;
+}
+#main .online_tutoring .checkbox:not(:first-child){
+    margin-left: 20px;
+}
+
+#main .online_tutoring textarea{
+    width: 100%;
+    height: 74px;
+    border: 2px solid #e7e7e7;
+    margin-top: 12px;
+}
+#main .online_tutoring button{
+    /* display: inline-block; */
+    width: 100%;
+    height: 45px;
+    border: none;
+    color: white;
+    background-color: #21bcd8;
+    margin-top: 12px;
+    padding: 0;
+    outline: none;
+}
